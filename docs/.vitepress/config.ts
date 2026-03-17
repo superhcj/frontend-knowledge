@@ -4,6 +4,7 @@ export default defineConfig({
   title: '前端知识框架',
   description: '一份全面、系统、持续更新的前端工程师知识体系',
   lang: 'zh-CN',
+  base: '/frontend-knowledge/',
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
@@ -121,7 +122,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username/frontend-knowledge' },
+      { icon: 'github', link: 'https://github.com/superhcj/frontend-knowledge' },
     ],
 
     footer: {
@@ -130,7 +131,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/your-username/frontend-knowledge/edit/main/docs/:path',
+      pattern: 'https://github.com/superhcj/frontend-knowledge/edit/master/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
 
